@@ -1,0 +1,56 @@
+@import "./base.css";
+
+#app {
+  margin: 0 auto;
+  background: #2701D8;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: SVN-Cintra;
+  src: url("./fonts/SVN-Cintra.otf") format("opentype");
+}
+
+@font-face {
+  font-family: SVN-Cintra;
+  font-weight: bold;
+  src: url("./fonts/SVN-Cintra.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Open-Sans;
+  src: url("./fonts/open-sans/OpenSans/OpenSans-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: Open-Sans;
+  font-weight: bold;
+  src: url("./fonts/open-sans/OpenSans/OpenSans-Bold.ttf") format("woff2");
+}
+
+.font-svn {
+  font-family: 'SVN-Cintra';
+}
+
+.font-open-sans {
+  font-family: 'Open-Sans';
+}
+
+
+
+/* http://waitanimate.wstone.io/#!/ */
+.float-x {
+	transform: translatex(0px);
+	animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+	0% {
+		transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(-10px);
+	}
+	100% {
+		transform: translatex(0px);
+	}
+}
